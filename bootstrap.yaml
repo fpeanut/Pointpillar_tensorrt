@@ -1,0 +1,12 @@
+LoadDim: 6
+UseDim: 4
+UseOnnx: True
+
+PfeOnnx: ./model/vfe_dim4ep35.onnx
+BackboneOnnx: ./model/backbone.onnx
+
+ModelConfig: ./cfgs/hv_pointpillars_secfpn_waymo.yaml
+# AnchorFile: ./cfgs/anchors.txt
+
+InputFile: ./data/waymo_pcd/
+OutputFile: ./data/bbox/

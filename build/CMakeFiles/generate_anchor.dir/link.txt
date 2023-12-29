@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/generate_anchor.dir/gen_anchor.cc.o -o generate_anchor 
